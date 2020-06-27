@@ -77,14 +77,28 @@
     margin-left: 12px;
 }
 
+.icons-panel {
+    display: flex;
+    align-items: center;
+}
 .icon-link {
+    display: flex;
+    align-items: center;
     margin-left: 12px;
 
     text-decoration: none;
 }
-.icon-link>svg {
+.icon-link:last-child:before {
+    content: '';
+    width: 1px;
+    height: 16px;
+    background: #003A8C;
+
+    margin-right: 12px;
+}
+.svg-icon {
     fill: #002766;
 }
-.icon-link>svg:hover {
+.svg-icon:hover {
     fill: white;
 }
