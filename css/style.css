@@ -68,7 +68,6 @@
     font-size: 14px;
     line-height: 22px;
 }
-
 .navigation-link:after {
     content: '';
     width: 1px;
@@ -76,4 +75,16 @@
     background: #003A8C;
 
     margin-left: 12px;
+}
+
+.icon-link {
+    margin-left: 12px;
+
+    text-decoration: none;
+}
+.icon-link>svg {
+    fill: #002766;
+}
+.icon-link>svg:hover {
+    fill: white;
 }
