@@ -88,13 +88,19 @@
 
     text-decoration: none;
 }
-.icon-link:last-child:before {
+.icon-link.pipe:before {
     content: '';
     width: 1px;
     height: 16px;
     background: #003A8C;
 
     margin-right: 12px;
+}
+.icon-link.menu:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/dropdown.svg);
 }
 .svg-icon {
     fill: #002766;
