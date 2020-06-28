@@ -100,8 +100,15 @@
     content: '';
     width: 16px;
     height: 16px;
-    background-image: url(../img/dropdown.svg);
+    margin-left: 4px;
+
+    mask-image: url(../img/dropdown.svg);
+    background-color: #003A8C;
 }
+.icon-link.menu:hover:after {
+    background-color: white;
+}
+
 .svg-icon {
     fill: #002766;
 }
