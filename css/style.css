@@ -123,6 +123,7 @@ body {
 .container {
     max-width: 1200px;
     margin: auto;
+    margin-top: 16px;
 }
 .menu-sidebar {
     max-width: 192px;
@@ -141,6 +142,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin: 12px 0;
 }
 .nav-link {
     text-decoration: none;
