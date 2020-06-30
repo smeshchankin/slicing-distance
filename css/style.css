@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
 }
-.user:after {
+.navigation-panel:before {
     content: '';
     width: 1px;
     height: 16px;
@@ -114,4 +114,31 @@
 }
 .svg-icon:hover {
     fill: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.menu-sidebar {
+    max-width: 192px;
+}
+.menu-sidebar .user-avatar {
+    width: 24px;
+    height: 24px;
+}
+.menu-sidebar .user-name {
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #262626;
+}
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
 }
