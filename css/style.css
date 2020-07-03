@@ -219,6 +219,8 @@ body {
 .create-post-input {
     padding-top: 8px;
     width: 100%;
+    word-wrap: break-word;
+    overflow-x: hidden;
 }
 .create-post-footer {
     display: flex;
