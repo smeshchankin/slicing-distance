@@ -51,7 +51,12 @@ body {
     margin-left: 12px;
 }
 .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
     margin-right: 8px;
+    object-fit: cover;
+    object-position: top;
 }
 .user-name {
     font-size: 14px;
