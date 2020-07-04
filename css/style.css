@@ -137,6 +137,9 @@ body {
     color: #FFFFFF;
     font-size: 12px;
 }
+.pipe .notification {
+    left: 24px;
+}
 
 .header-icon {
     fill: #002766;
