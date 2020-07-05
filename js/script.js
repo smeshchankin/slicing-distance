@@ -44,4 +44,11 @@
         { id: 'dots', name: '' }
     ];
     populator.populate('.create-post-button', createPostButtons);
+
+    const postButtons = [
+        { id: 'like', name: 'Like' },
+        { id: 'comment', name: 'Comment' },
+        { id: 'share', name: 'Share' }
+    ];
+    populator.populate('.post-button', postButtons);
 }());
