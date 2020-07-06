@@ -50,5 +50,5 @@
         { id: 'comment', name: 'Comment' },
         { id: 'share', name: 'Share' }
     ];
-    populator.populate('.post-footer-button', postButtons);
+    populator.populate('.post-button', postButtons);
 }());
