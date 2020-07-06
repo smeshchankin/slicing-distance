@@ -248,7 +248,6 @@ body {
 .create-post-footer {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     margin: 0 16px 16px 16px;
     padding-top: 16px;
 
@@ -361,8 +360,24 @@ body {
 .post-footer {
     display: flex;
     justify-content: space-around;
+
+    padding-top: 16px;
+    border-top: 1px solid #E8E8E8;
 }
 .post-button {
     background-color: #fff;
     border: none;
+    display: flex;
+    align-items: center;
+}
+.post-button-icon {
+    fill: #595959;
+}
+.post-button-text {
+    margin-left: 8px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
 }

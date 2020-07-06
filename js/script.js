@@ -47,7 +47,7 @@
 
     const postButtons = [
         { id: 'like', name: 'Like' },
-        { id: 'comment', name: 'Comment' },
+        { id: 'chat', name: 'Comment' },
         { id: 'share', name: 'Share' }
     ];
     populator.populate('.post-button', postButtons);
