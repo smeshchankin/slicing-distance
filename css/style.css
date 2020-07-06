@@ -342,3 +342,18 @@ body {
     border-radius: 4px;
     max-width: 100%;
 }
+
+.likes {
+    display: flex;
+    align-items: center;
+
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.likes-counter {
+    margin-left: 4px;
+
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
