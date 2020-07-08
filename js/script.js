@@ -51,4 +51,11 @@
         { id: 'share', name: 'Share' }
     ];
     populator.populate('.post-button', postButtons);
+
+    const storyItems = [
+        { classes: 'concuria active', title: 'Concuria', hours: '4' },
+        { classes: 'figma', title: 'Figma', hours: '5' },
+        { classes: 'ant-design active', title: 'Ant Design', hours: '6' }
+    ];
+    populator.populate('.story-item', storyItems);
 }());
