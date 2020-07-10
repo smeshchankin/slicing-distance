@@ -493,3 +493,12 @@ body {
     color: #8C8C8C;
     width: 100%;
 }
+
+@media (max-width: 1250px) {
+    .container {
+        justify-content: space-around;
+    }
+    .right-sidebar {
+        display: none;
+    }
+}
