@@ -497,8 +497,12 @@ body {
 @media (max-width: 1250px) {
     .container {
         justify-content: space-around;
+        width: 95%;
     }
     .right-sidebar {
         display: none;
+    }
+    .header-block {
+        width: 95%;
     }
 }
