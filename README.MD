@@ -1,5 +1,5 @@
 # Slicing Distance
-[Open GtHub Pages](http://smeshchankin.github.io/slicing-distance)
+[Open GitHub Pages](http://smeshchankin.github.io/slicing-distance)
 
 Slicing Distance Social Network
 
