@@ -1,9 +1,5 @@
 (function() {
-    const menu = [
-        { name: 'Home' },
-        { name: 'Create' }
-    ];
-    populator.populate('.navigation-link', menu);
+    populator.populateFromJson();
 
     const icons = [
         { id: 'users', classes: '', notificationClass: 'notification', notification: 3 },
