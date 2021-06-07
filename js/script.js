@@ -1,14 +1,6 @@
 (function() {
     populator.populateFromJson();
 
-    const icons = [
-        { id: 'users', classes: '', notificationClass: 'notification', notification: 3 },
-        { id: 'chat', classes: '', notificationClass: 'notification', notification: 8 },
-        { id: 'bell', classes: '', notificationClass: 'notification', notification: 88 },
-        { id: 'info', classes: 'pipe menu', notification: '' }
-    ];
-    populator.populate('.icon-link', icons);
-
     const submenu = [
         [
             { id: 'news', name: 'News Feed', class: 'active' },
