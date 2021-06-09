@@ -1,0 +1,5 @@
+[
+    { "id": "like", "name": "Like" },
+    { "id": "chat", "name": "Comment" },
+    { "id": "share", "name": "Share" }
+]
