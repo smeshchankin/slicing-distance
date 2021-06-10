@@ -1,0 +1,6 @@
+[
+    { "id": "picture", "name": "Photo/Video" },
+    { "id": "user-add", "name": "Tag friends" },
+    { "id": "smile", "name": "Feeling/Activ..." },
+    { "id": "dots", "name": "" }
+]

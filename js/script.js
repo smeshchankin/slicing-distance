@@ -24,12 +24,4 @@
     populator.populate('.submenu-1', submenu[0]);
     populator.populate('.submenu-2', submenu[1]);
     populator.populate('.submenu-3', submenu[2]);
-
-    const createPostButtons = [
-        { id: 'picture', name: 'Photo/Video' },
-        { id: 'user-add', name: 'Tag friends' },
-        { id: 'smile', name: 'Feeling/Activ...' },
-        { id: 'dots', name: '' }
-    ];
-    populator.populate('.create-post-button', createPostButtons);
 }());
