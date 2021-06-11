@@ -3,11 +3,6 @@
 
     const submenu = [
         [
-            { id: 'news', name: 'News Feed', class: 'active' },
-            { id: 'messages', name: 'Messages', class: '' },
-            { id: 'marketplace', name: 'Marketplace', class: '' }
-        ],
-        [
             { id: 'cup', name: 'Product Design', class: '' },
             { id: 'cup', name: 'UX &amp; UI', class: '' },
             { id: 'cup', name: 'Figma', class: '' },
@@ -21,7 +16,6 @@
         ]
     ];
 
-    populator.populate('.submenu-1', submenu[0]);
     populator.populate('.submenu-2', submenu[1]);
     populator.populate('.submenu-3', submenu[2]);
 }());

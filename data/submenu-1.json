@@ -1,0 +1,5 @@
+[
+    { "id": "news", "name": "News Feed", "class": "active" },
+    { "id": "messages", "name": "Messages", "class": "" },
+    { "id": "marketplace", "name": "Marketplace", "class": "" }
+]
